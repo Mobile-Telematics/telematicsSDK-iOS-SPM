@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let arc_name: String = "RaxelPulse-6.0.5.zip"
+let arc_name: String = "RaxelPulse-6.0.6.zip"
 
 let package = Package(
     name: "RaxelPulse",
@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "RaxelPulse",
-                    url: "https://iosstorage1.blob.core.windows.net/pulse-ios/\(arc_name)",
-                    checksum: "658a1a077f842d2564e01fa1421429c67f9b8cbfbf48ab51dd3d64bd838dd22f"
+                    url: "https://s3.us-east-2.amazonaws.com/ios.telematics.sdk.production/Releases/\(arc_name)",
+                    checksum: "fb42c3a535082ee4e132d087a48db41579005dcce07d10c35c3b23c046b0d479"
         )
     ]
 )
